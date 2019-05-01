@@ -25,9 +25,10 @@ CLICKBTN_PULLUP	LITERAL1
 #######################################
 
 clicks	LITERAL2
+longs   LITERAL2
+changed LITERAL2
 depressed	LITERAL2
 maxPresses	LITERAL2
 debounceTime	LITERAL2
 multiclickTime	LITERAL2
 longClickTime	LITERAL2
-

@@ -19,6 +19,7 @@ class ClickButton
     ClickButton(uint8_t buttonPin, boolean active, boolean internalPullup);
     void Update();
     int clicks;                   // button click counts to return
+    boolean longs;                   // button click counts to return
     boolean depressed;            // the currently debounced button (press) state (presumably it is not sad :)
     long debounceTime;
     long multiclickTime;
@@ -34,4 +35,3 @@ class ClickButton
 };
 
 #endif
-
